@@ -1,0 +1,7 @@
+n3 = float(input('Digite a sua altura. Favor, digite na unidade de medida metros'))
+print(f'A sua altura em mm é {n3*1000:.5f} \n')
+print(f'A sua altura em cm é {n3*100} \n')
+print(f'A sua altura em dm é {n3*10:.5f} \n')
+print(f'A sua altura em dam é {n3/10} \n')
+print(f'A sua altura em hm é {n3/100} \n')
+print(f'A sua altura em km é {n3/1000:.5f} \n')
